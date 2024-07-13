@@ -12,7 +12,6 @@ scikit-fuzzy<br>
 Install the required libraries with:
 
 ```bash 
-Copy code
 pip install numpy scikit-fuzzy
 ```
 # Inputs
@@ -51,7 +50,6 @@ High: [50, 100, 100]<br>
 
 # Usage
 ```python
-Copy code
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
