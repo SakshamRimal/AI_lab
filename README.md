@@ -4,9 +4,9 @@
 This program determines the likelihood of an email being spam based on keyword frequency, number of links, and sender reputation using fuzzy logic.
 
 # Requirements
-Python 3.x
-NumPy
-scikit-fuzzy
+Python 3.x <br>
+NumPy<br>
+scikit-fuzzy<br>
 
 #Installation
 Install the required libraries with:
@@ -16,38 +16,38 @@ Copy code
 pip install numpy scikit-fuzzy
 ```
 # Inputs
--keyword_freq (0 to 10)
--num_links (0 to 10)
--sender_reputation (0 to 10)
+-keyword_freq (0 to 10)<br>
+-num_links (0 to 10)<br>
+-sender_reputation (0 to 10)<br>
 # Output
--spam_likelihood (0 to 100%)
+-spam_likelihood (0 to 100%)<br>
 
 # Fuzzy Sets
 
 # Keyword Frequency
--Low: [0, 0, 5]
--Medium: [0, 5, 10]
--High: [5, 10, 10]
+-Low: [0, 0, 5]<br>
+-Medium: [0, 5, 10]<br>
+-High: [5, 10, 10]<br>
 
 # Number of Links
--Few: [0, 0, 5]
--Moderate: [0, 5, 10]
--Many: [5, 10, 10]
+-Few: [0, 0, 5]<br>
+-Moderate: [0, 5, 10]<br>
+-Many: [5, 10, 10]<br>
 
 #Sender Reputation
--Poor: [0, 0, 5]
--Average: [0, 5, 10]
--Good: [5, 10, 10]
+-Poor: [0, 0, 5]<br>
+-Average: [0, 5, 10]<br>
+-Good: [5, 10, 10]<br>
 
 # Spam Likelihood
--Low: [0, 0, 50]
--Medium: [0, 50, 100]
--High: [50, 100, 100]
+-Low: [0, 0, 50]<br>
+-Medium: [0, 50, 100]<br>
+-High: [50, 100, 100]<br>
 
 # Rules
-1.High keyword frequency & many links & poor reputation → High spam likelihood
-2.Medium keyword frequency & moderate links & average reputation → Medium spam likelihood
-3.Low keyword frequency & few links & good reputation → Low spam likelihood
+1.High keyword frequency & many links & poor reputation → High spam likelihood<br>
+2.Medium keyword frequency & moderate links & average reputation → Medium spam likelihood<br>
+3.Low keyword frequency & few links & good reputation → Low spam likelihood<br>
 
 # Usage
 ```python
