@@ -1,5 +1,5 @@
 
-# Spam Detection System using Fuzzy Logic
+# Email Spam Filtering using Fuzzy Logic
 # Overview
 This program determines the likelihood of an email being spam based on keyword frequency, number of links, and sender reputation using fuzzy logic.
 
