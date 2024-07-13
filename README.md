@@ -16,33 +16,33 @@ Copy code
 pip install numpy scikit-fuzzy
 ```
 # Inputs
--keyword_freq (0 to 10)<br>
--num_links (0 to 10)<br>
--sender_reputation (0 to 10)<br>
+keyword_freq (0 to 10)<br>
+num_links (0 to 10)<br>
+sender_reputation (0 to 10)<br>
 # Output
--spam_likelihood (0 to 100%)<br>
+spam_likelihood (0 to 100%)<br>
 
 # Fuzzy Sets
 
 # Keyword Frequency
--Low: [0, 0, 5]<br>
--Medium: [0, 5, 10]<br>
--High: [5, 10, 10]<br>
+Low: [0, 0, 5]<br>
+Medium: [0, 5, 10]<br>
+High: [5, 10, 10]<br>
 
 # Number of Links
--Few: [0, 0, 5]<br>
--Moderate: [0, 5, 10]<br>
--Many: [5, 10, 10]<br>
+Few: [0, 0, 5]<br>
+Moderate: [0, 5, 10]<br>
+Many: [5, 10, 10]<br>
 
 #Sender Reputation
--Poor: [0, 0, 5]<br>
--Average: [0, 5, 10]<br>
--Good: [5, 10, 10]<br>
+Poor: [0, 0, 5]<br>
+Average: [0, 5, 10]<br>
+Good: [5, 10, 10]<br>
 
 # Spam Likelihood
--Low: [0, 0, 50]<br>
--Medium: [0, 50, 100]<br>
--High: [50, 100, 100]<br>
+Low: [0, 0, 50]<br>
+Medium: [0, 50, 100]<br>
+High: [50, 100, 100]<br>
 
 # Rules
 1.High keyword frequency & many links & poor reputation → High spam likelihood<br>
