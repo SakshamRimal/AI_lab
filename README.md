@@ -90,7 +90,7 @@ print(f"Spam Likelihood: {spam_score}%")
 spam_likelihood.view(sim=spam_simulation
 ```
 # Summary
-Python 3.x: Language interpreter.
-NumPy: For numerical operations and array handling.
-scikit-fuzzy: For fuzzy logic operations.
-Matplotlib (optional): For plotting and visualization.
+Python 3.x: Language interpreter.<br>
+NumPy: For numerical operations and array handling.<br>
+scikit-fuzzy: For fuzzy logic operations.<br>
+Matplotlib (optional): For plotting and visualization.<br>
