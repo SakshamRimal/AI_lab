@@ -87,5 +87,10 @@ spam_simulation.compute()
 spam_score = spam_simulation.output['spam_likelihood']
 
 print(f"Spam Likelihood: {spam_score}%")
-spam_likelihood.view(sim=spam_simulation)
+spam_likelihood.view(sim=spam_simulation
 ```
+# Summary
+Python 3.x: Language interpreter.
+NumPy: For numerical operations and array handling.
+scikit-fuzzy: For fuzzy logic operations.
+Matplotlib (optional): For plotting and visualization.
