@@ -8,7 +8,7 @@ Python 3.x <br>
 NumPy<br>
 scikit-fuzzy<br>
 
-#Installation
+# Installation
 Install the required libraries with:
 
 ```bash 
