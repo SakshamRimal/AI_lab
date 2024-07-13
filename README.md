@@ -22,7 +22,7 @@ sender_reputation (0 to 10)<br>
 # Output
 spam_likelihood (0 to 100%)<br>
 
-# Fuzzy Sets
+# Fuzzy Sets -
 
 # Keyword Frequency
 Low: [0, 0, 5]<br>
@@ -34,7 +34,7 @@ Few: [0, 0, 5]<br>
 Moderate: [0, 5, 10]<br>
 Many: [5, 10, 10]<br>
 
-#Sender Reputation
+# Sender Reputation
 Poor: [0, 0, 5]<br>
 Average: [0, 5, 10]<br>
 Good: [5, 10, 10]<br>
